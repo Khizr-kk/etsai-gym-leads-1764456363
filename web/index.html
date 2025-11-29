@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymLead Connect - Grow Your Gym Memberships</title>
+    <style>
+        /* Basic Reset & Body Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; /* Light grey background */
+            color: #333; /* Dark grey text */
+            line-height: 1.6;
+        }
+
+        /* Container for content width control */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            background-color: #1e3a8a; /* Dark blue */
+            color: #ffffff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Call-to-Action Button Styling */
+        .cta-button {
+            display: inline-block;
+            background-color: #22c55e; /* Vibrant green */
+            color: #ffffff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #16a34a; /* Darker green on hover */
+        }
+
+        /* Features Section Styling */
+        .features {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .features h2 {
+            font-size: 2.2em;
+            color: #1e3a8a;
+            margin-bottom: 40px;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+            gap: 30px;
+        }
+
+        .feature-item {
+            background-color: #f9f9f9; /* Slightly off-white for feature cards */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow */
+            text-align: left;
+        }
+
+        .feature-item h3 {
+            color: #1e3a8a;
+            font-size: 1.4em;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .feature-item p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Pricing Teaser Section Styling */
+        .pricing-teaser {
+            background-color: #f4f7f6; /* Matching body background */
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .pricing-teaser h2 {
+            font-size: 2.2em;
+            color: #1e3a8a;
+            margin-bottom: 20px;
+        }
+
+        .pricing-teaser p {
+            font-size: 1.1em;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #333; /* Dark footer background */
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #22c55e; /* Green links */
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2em;
+            }
+            .hero p {
+                font-size: 1.1em;
+            }
+            .cta-button {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
+            .features h2, .pricing-teaser h2 {
+                font-size: 1.8em;
+            }
+            .feature-list {
+                grid-template-columns: 1fr; /* Stack features vertically */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 60px 15px;
+            }
+            .hero h1 {
+                font-size: 1.8em;
+            }
+            .hero p {
+                font-size: 1em;
+            }
+            .features, .pricing-teaser, .footer {
+                padding: 40px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section: Main headline and call to action -->
+    <div class="hero">
+        <div class="container">
+            <h1>Transform WhatsApp & Instagram Leads into Loyal Gym Members</h1>
+            <p>A simple, powerful SaaS platform designed specifically for Indian small gym owners to capture, track, and convert every lead from social media and messaging apps.</p>
+            <a href="#contact" class="cta-button">Book a Free Demo Today</a>
+        </div>
+    </div>
+
+    <!-- Features Section: Highlight key benefits -->
+    <div class="features">
+        <div class="container">
+            <h2>Grow Your Gym with Smart Lead Management</h2>
+            <ul class="feature-list">
+                <li class="feature-item">
+                    <h3>Unified Lead Inbox</h3>
+                    <p>All your incoming messages from WhatsApp Business and Instagram in one centralized inbox. Never miss a potential member again!</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Effortless Lead Tracking</h3>
+                    <p>Track every lead's journey from "New" to "Converted" with customizable statuses, detailed profiles, and complete interaction history.</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Automated Follow-up Reminders</h3>
+                    <p>Set personalized reminders and ensure timely communication. Keep your leads engaged and move them towards conversion without manual effort.</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Insightful Performance Dashboard</h3>
+                    <p>Monitor your lead generation and conversion performance at a glance. Understand what works and optimize your outreach strategies for maximum impact.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Pricing Teaser Section: Simple statement on pricing -->
+    <div class="pricing-teaser">
+        <div class="container">
+            <h2>Affordable Plans for Indian Gyms</h2>
+            <p>Our pricing is designed to fit the budget of small local gyms across India. Get started today and experience the difference in your lead conversions without breaking the bank.</p>
+            <a href="#contact" class="cta-button">Contact for Pricing Details</a>
+        </div>
+    </div>
+
+    <!-- Footer Section: Contact information and copyright -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <p>&copy; 2023 GymLead Connect. All rights reserved.</p>
+            <p>Email: <a href="mailto:info@gymleadconnect.com">info@gymleadconnect.com</a> | Phone: +91 98765 43210</p>
+        </div>
+    </div>
+</body>
+</html>
